@@ -130,7 +130,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/espressovzw/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 	vendor/samsung/espressovzw/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
 	vendor/samsung/espressovzw/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-	vendor/samsung/espressovzw/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+	vendor/samsung/espressovzw/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
         vendor/samsung/espressovzw/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
         vendor/samsung/espressovzw/proprietary/bin/btnvtool:system/bin/btnvtool \
         vendor/samsung/espressovzw/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
