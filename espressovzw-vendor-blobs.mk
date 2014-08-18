@@ -1,4 +1,4 @@
-# Copyright (C) 2011 The CyanogenMod Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,50 +16,47 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-	vendor/samsung/espressovzw/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-	vendor/samsung/espressovzw/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+	vendor/samsung/espressovzw/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
+	vendor/samsung/espressovzw/proprietary/lib/libloc_api_v02.so:obj/lib/libloc_api_v02.so
 
 PRODUCT_COPY_FILES += \
-	vendor/samsung/espressovzw/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
-	vendor/samsung/espressovzw/proprietary/bin/btnvtool:system/bin/btnvtool \
-	vendor/samsung/espressovzw/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/samsung/espressovzw/proprietary/bin/mpdecision:system/bin/mpdecision \
-	vendor/samsung/espressovzw/proprietary/bin/port-bridge:system/bin/port-bridge \
-	vendor/samsung/espressovzw/proprietary/bin/usbhub:system/bin/usbhub \
-	vendor/samsung/espressovzw/proprietary/bin/usbhub_init:system/bin/usbhub_init \
 	vendor/samsung/espressovzw/proprietary/bin/thermald:system/bin/thermald \
-	vendor/samsung/espressovzw/proprietary/etc/thermald.conf:system/etc/thermald.conf \
-	vendor/samsung/espressovzw/proprietary/etc/thermald.conf_F:system/etc/thermald.conf_F \
-	vendor/samsung/espressovzw/proprietary/etc/thermald.conf_N:system/etc/thermald.conf_N \
-	vendor/samsung/espressovzw/proprietary/etc/thermald.conf_S:system/etc/thermald.conf_S \
-	vendor/samsung/espressovzw/proprietary/lib/hw/alsa.msm8960.so:system/lib/hw/alsa.msm8960.so \
-	vendor/samsung/espressovzw/proprietary/lib/hw/audio_policy.msm8960.so:system/lib/hw/audio_policy.msm8960.so \
-	vendor/samsung/espressovzw/proprietary/lib/hw/audio.primary.msm8960.so:system/lib/hw/audio.primary.msm8960.so \
 	vendor/samsung/espressovzw/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/espressovzw/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/samsung/espressovzw/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-	vendor/samsung/espressovzw/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
-	vendor/samsung/espressovzw/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
-	vendor/samsung/espressovzw/proprietary/lib/lib_SamsungRec_V01005.so:system/lib/lib_SamsungRec_V01005.so \
-	vendor/samsung/espressovzw/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
+	vendor/samsung/espressovzw/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
+	vendor/samsung/espressovzw/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
+	vendor/samsung/espressovzw/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
 	vendor/samsung/espressovzw/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
 	vendor/samsung/espressovzw/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-	vendor/samsung/espressovzw/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+	vendor/samsung/espressovzw/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
 	vendor/samsung/espressovzw/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
 	vendor/samsung/espressovzw/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 	vendor/samsung/espressovzw/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
 	vendor/samsung/espressovzw/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	vendor/samsung/espressovzw/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-	vendor/samsung/espressovzw/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+	vendor/samsung/espressovzw/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
+	vendor/samsung/espressovzw/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+	vendor/samsung/espressovzw/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
 	vendor/samsung/espressovzw/proprietary/lib/libgsl.so:system/lib/libgsl.so \
 	vendor/samsung/espressovzw/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+	vendor/samsung/espressovzw/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+	vendor/samsung/espressovzw/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
 	vendor/samsung/espressovzw/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+	vendor/samsung/espressovzw/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
 	vendor/samsung/espressovzw/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+	vendor/samsung/espressovzw/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
 	vendor/samsung/espressovzw/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/samsung/espressovzw/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/samsung/espressovzw/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+	vendor/samsung/espressovzw/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+	vendor/samsung/espressovzw/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
 	vendor/samsung/espressovzw/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
 	vendor/samsung/espressovzw/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+	vendor/samsung/espressovzw/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+	vendor/samsung/espressovzw/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+	vendor/samsung/espressovzw/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
 	vendor/samsung/espressovzw/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
 	vendor/samsung/espressovzw/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/samsung/espressovzw/proprietary/bin/sec-ril:system/bin/sec-ril \
@@ -67,15 +64,14 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/espressovzw/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/samsung/espressovzw/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/samsung/espressovzw/proprietary/bin/rild:system/bin/rild \
-	vendor/samsung/espressovzw/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
 	vendor/samsung/espressovzw/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/espressovzw/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/samsung/espressovzw/proprietary/lib/libqdi.so:system/lib/libqdi.so \
 	vendor/samsung/espressovzw/proprietary/lib/libqdp.so:system/lib/libqdp.so \
 	vendor/samsung/espressovzw/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-	vendor/samsung/espressovzw/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/samsung/espressovzw/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
 	vendor/samsung/espressovzw/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+	vendor/samsung/espressovzw/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/samsung/espressovzw/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
 	vendor/samsung/espressovzw/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
 	vendor/samsung/espressovzw/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
@@ -86,159 +82,53 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/espressovzw/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
 	vendor/samsung/espressovzw/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
 	vendor/samsung/espressovzw/proprietary/lib/libatparser.so:system/lib/libatparser.so \
-	vendor/samsung/espressovzw/proprietary/bin/wiperiface_v02:system/bin/wiperiface_v02 \
-	vendor/samsung/espressovzw/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-	vendor/samsung/espressovzw/proprietary/bin/quipc_main:system/bin/quipc_main \
-	vendor/samsung/espressovzw/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-	vendor/samsung/espressovzw/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-	vendor/samsung/espressovzw/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-	vendor/samsung/espressovzw/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+	vendor/samsung/espressovzw/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+	vendor/samsung/espressovzw/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
+	vendor/samsung/espressovzw/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+	vendor/samsung/espressovzw/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
 	vendor/samsung/espressovzw/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-	vendor/samsung/espressovzw/proprietary/lib/libcurl.so:system/lib/libcurl.so \
-	vendor/samsung/espressovzw/proprietary/lib/libbson.so:system/lib/libbson.so \
-	vendor/samsung/espressovzw/proprietary/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
-	vendor/samsung/espressovzw/proprietary/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
-	vendor/samsung/espressovzw/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
-	vendor/samsung/espressovzw/proprietary/bin/geomagneticd:system/bin/geomagneticd \
-	vendor/samsung/espressovzw/proprietary/bin/orientationd:system/bin/orientationd \
+	vendor/samsung/espressovzw/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
 	vendor/samsung/espressovzw/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-	vendor/samsung/espressovzw/proprietary/lib/libAKM.so:system/lib/libAKM.so \
-	vendor/samsung/espressovzw/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-	vendor/samsung/espressovzw/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+	vendor/samsung/espressovzw/proprietary/lib/libakmd.so:system/lib/libakmd.so \
+	vendor/samsung/espressovzw/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
+	vendor/samsung/espressovzw/proprietary/lib/libmllite.so:system/lib/libmllite.so \
+	vendor/samsung/espressovzw/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
+	vendor/samsung/espressovzw/proprietary/lib/libyamaha.so:system/lib/libyamaha.so \
+	vendor/samsung/espressovzw/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
 	vendor/samsung/espressovzw/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/samsung/espressovzw/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+	vendor/samsung/espressovzw/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
 	vendor/samsung/espressovzw/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+	vendor/samsung/espressovzw/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+	vendor/samsung/espressovzw/proprietary/lib/libvdis.so:system/lib/libvdis.so \
 	vendor/samsung/espressovzw/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/espressovzw/proprietary/lib/libgemini.so:system/lib/libgemini.so \
 	vendor/samsung/espressovzw/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-	vendor/samsung/espressovzw/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
 	vendor/samsung/espressovzw/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
 	vendor/samsung/espressovzw/proprietary/lib/libmmstereo.so:system/lib/libmmstereo.so \
 	vendor/samsung/espressovzw/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
 	vendor/samsung/espressovzw/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
 	vendor/samsung/espressovzw/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
-	vendor/samsung/espressovzw/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
-	vendor/samsung/espressovzw/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
-	vendor/samsung/espressovzw/proprietary/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
-	vendor/samsung/espressovzw/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
-	vendor/samsung/espressovzw/proprietary/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
-	vendor/samsung/espressovzw/proprietary/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
+	vendor/samsung/espressovzw/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
+	vendor/samsung/espressovzw/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
 	vendor/samsung/espressovzw/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
 	vendor/samsung/espressovzw/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
 	vendor/samsung/espressovzw/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+	vendor/samsung/espressovzw/proprietary/bin/btnvtool:system/bin/btnvtool \
+	vendor/samsung/espressovzw/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/samsung/espressovzw/proprietary/bin/macloader:system/bin/macloader \
 	vendor/samsung/espressovzw/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-	vendor/samsung/espressovzw/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
-	vendor/samsung/espressovzw/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+	vendor/samsung/espressovzw/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
+	vendor/samsung/espressovzw/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
+	vendor/samsung/espressovzw/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
+	vendor/samsung/espressovzw/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+	vendor/samsung/espressovzw/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
+	vendor/samsung/espressovzw/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+	vendor/samsung/espressovzw/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+	vendor/samsung/espressovzw/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+	vendor/samsung/espressovzw/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin_:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin_ \
 	vendor/samsung/espressovzw/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
-        vendor/samsung/espressovzw/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
-        vendor/samsung/espressovzw/proprietary/bin/btnvtool:system/bin/btnvtool \
-        vendor/samsung/espressovzw/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-        vendor/samsung/espressovzw/proprietary/bin/mpdecision:system/bin/mpdecision \
-        vendor/samsung/espressovzw/proprietary/bin/port-bridge:system/bin/port-bridge \
-        vendor/samsung/espressovzw/proprietary/bin/usbhub:system/bin/usbhub \
-        vendor/samsung/espressovzw/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-        vendor/samsung/espressovzw/proprietary/bin/thermald:system/bin/thermald \
-        vendor/samsung/espressovzw/proprietary/etc/thermald.conf:system/etc/thermald.conf \
-        vendor/samsung/espressovzw/proprietary/etc/thermald.conf_F:system/etc/thermald.conf_F \
-        vendor/samsung/espressovzw/proprietary/etc/thermald.conf_N:system/etc/thermald.conf_N \
-        vendor/samsung/espressovzw/proprietary/etc/thermald.conf_S:system/etc/thermald.conf_S \
-        vendor/samsung/espressovzw/proprietary/lib/hw/alsa.msm8960.so:system/lib/hw/alsa.msm8960.so \
-        vendor/samsung/espressovzw/proprietary/lib/hw/audio_policy.msm8960.so:system/lib/hw/audio_policy.msm8960.so \
-        vendor/samsung/espressovzw/proprietary/lib/hw/audio.primary.msm8960.so:system/lib/hw/audio.primary.msm8960.so \
-        vendor/samsung/espressovzw/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-        vendor/samsung/espressovzw/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-        vendor/samsung/espressovzw/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-        vendor/samsung/espressovzw/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
-        vendor/samsung/espressovzw/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
-        vendor/samsung/espressovzw/proprietary/lib/lib_SamsungRec_V01005.so:system/lib/lib_SamsungRec_V01005.so \
-        vendor/samsung/espressovzw/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
-        vendor/samsung/espressovzw/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-        vendor/samsung/espressovzw/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-        vendor/samsung/espressovzw/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-        vendor/samsung/espressovzw/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-        vendor/samsung/espressovzw/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-        vendor/samsung/espressovzw/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-        vendor/samsung/espressovzw/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-        vendor/samsung/espressovzw/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-        vendor/samsung/espressovzw/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-        vendor/samsung/espressovzw/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-        vendor/samsung/espressovzw/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-        vendor/samsung/espressovzw/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-        vendor/samsung/espressovzw/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-        vendor/samsung/espressovzw/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-        vendor/samsung/espressovzw/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-        vendor/samsung/espressovzw/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-        vendor/samsung/espressovzw/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-        vendor/samsung/espressovzw/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-        vendor/samsung/espressovzw/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-        vendor/samsung/espressovzw/proprietary/bin/netmgrd:system/bin/netmgrd \
-        vendor/samsung/espressovzw/proprietary/bin/sec-ril:system/bin/sec-ril \
-        vendor/samsung/espressovzw/proprietary/bin/qmiproxy:system/bin/qmiproxy \
-        vendor/samsung/espressovzw/proprietary/bin/qmuxd:system/bin/qmuxd \
-        vendor/samsung/espressovzw/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-        vendor/samsung/espressovzw/proprietary/bin/rild:system/bin/rild \
-        vendor/samsung/espressovzw/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
-        vendor/samsung/espressovzw/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-        vendor/samsung/espressovzw/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-        vendor/samsung/espressovzw/proprietary/lib/libqdi.so:system/lib/libqdi.so \
-        vendor/samsung/espressovzw/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-        vendor/samsung/espressovzw/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-        vendor/samsung/espressovzw/proprietary/lib/libril.so:system/lib/libril.so \
-        vendor/samsung/espressovzw/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-        vendor/samsung/espressovzw/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-        vendor/samsung/espressovzw/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-        vendor/samsung/espressovzw/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-        vendor/samsung/espressovzw/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-        vendor/samsung/espressovzw/proprietary/lib/libidl.so:system/lib/libidl.so \
-        vendor/samsung/espressovzw/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-        vendor/samsung/espressovzw/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
-        vendor/samsung/espressovzw/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
-        vendor/samsung/espressovzw/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
-        vendor/samsung/espressovzw/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
-        vendor/samsung/espressovzw/proprietary/lib/libatparser.so:system/lib/libatparser.so \
-        vendor/samsung/espressovzw/proprietary/bin/wiperiface_v02:system/bin/wiperiface_v02 \
-        vendor/samsung/espressovzw/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-        vendor/samsung/espressovzw/proprietary/bin/quipc_main:system/bin/quipc_main \
-        vendor/samsung/espressovzw/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-        vendor/samsung/espressovzw/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-        vendor/samsung/espressovzw/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-        vendor/samsung/espressovzw/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-        vendor/samsung/espressovzw/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-        vendor/samsung/espressovzw/proprietary/lib/libcurl.so:system/lib/libcurl.so \
-        vendor/samsung/espressovzw/proprietary/lib/libbson.so:system/lib/libbson.so \
-        vendor/samsung/espressovzw/proprietary/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
-        vendor/samsung/espressovzw/proprietary/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
-        vendor/samsung/espressovzw/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
-        vendor/samsung/espressovzw/proprietary/bin/geomagneticd:system/bin/geomagneticd \
-        vendor/samsung/espressovzw/proprietary/bin/orientationd:system/bin/orientationd \
-        vendor/samsung/espressovzw/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-        vendor/samsung/espressovzw/proprietary/lib/libAKM.so:system/lib/libAKM.so \
-        vendor/samsung/espressovzw/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-        vendor/samsung/espressovzw/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-        vendor/samsung/espressovzw/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-        vendor/samsung/espressovzw/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-        vendor/samsung/espressovzw/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-        vendor/samsung/espressovzw/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-        vendor/samsung/espressovzw/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-        vendor/samsung/espressovzw/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-        vendor/samsung/espressovzw/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
-        vendor/samsung/espressovzw/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
-        vendor/samsung/espressovzw/proprietary/lib/libmmstereo.so:system/lib/libmmstereo.so \
-        vendor/samsung/espressovzw/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-        vendor/samsung/espressovzw/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-        vendor/samsung/espressovzw/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
-        vendor/samsung/espressovzw/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
-        vendor/samsung/espressovzw/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
-        vendor/samsung/espressovzw/proprietary/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
-        vendor/samsung/espressovzw/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
-        vendor/samsung/espressovzw/proprietary/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
-        vendor/samsung/espressovzw/proprietary/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
-        vendor/samsung/espressovzw/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-        vendor/samsung/espressovzw/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
-        vendor/samsung/espressovzw/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-        vendor/samsung/espressovzw/proprietary/bin/macloader:system/bin/macloader \
-        vendor/samsung/espressovzw/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-        vendor/samsung/espressovzw/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
-        vendor/samsung/espressovzw/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-        vendor/samsung/espressovzw/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
+	vendor/samsung/espressovzw/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+	vendor/samsung/espressovzw/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+	vendor/samsung/espressovzw/proprietary/etc/thermald.conf:system/etc/thermald.conf \
+
