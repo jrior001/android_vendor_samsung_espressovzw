@@ -59,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espressovzw/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/samsung/espressovzw/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/espressovzw/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/espressovzw/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/espressovzw/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/espressovzw/proprietary/bin/qmiproxy:system/bin/qmiproxy \
@@ -74,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espressovzw/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/samsung/espressovzw/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/espressovzw/proprietary/lib/libidl.so:system/lib/libidl.so \
+    vendor/samsung/espressovzw/proprietary/lib/libmagnet.so:system/lib/liblibmagnet.so \
     vendor/samsung/espressovzw/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/samsung/espressovzw/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/espressovzw/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
