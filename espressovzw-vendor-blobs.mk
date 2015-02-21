@@ -58,8 +58,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espressovzw/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/samsung/espressovzw/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/samsung/espressovzw/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/samsung/espressovzw/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/samsung/espressovzw/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
+    vendor/samsung/espressovzw/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/espressovzw/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/samsung/espressovzw/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/samsung/espressovzw/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/samsung/espressovzw/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/samsung/espressovzw/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/espressovzw/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/espressovzw/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/espressovzw/proprietary/bin/qmiproxy:system/bin/qmiproxy \
