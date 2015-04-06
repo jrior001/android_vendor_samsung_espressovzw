@@ -35,8 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espressovzw/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/samsung/espressovzw/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/samsung/espressovzw/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
-    vendor/samsung/espressovzw/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/samsung/espressovzw/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
     vendor/samsung/espressovzw/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/samsung/espressovzw/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/samsung/espressovzw/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
@@ -45,6 +43,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espressovzw/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/samsung/espressovzw/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/samsung/espressovzw/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/libCB.so:system/lib/libCB.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/libOpenCL.so:system/lib/libOpenCL.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/samsung/espressovzw/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/espressovzw/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/espressovzw/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
